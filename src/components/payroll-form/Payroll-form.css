@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #dbdada;
+  }
+  
+  .header-content-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffff;
+    min-height :80px; ;
+    border-radius: 1px;
+  }
+  .header-content {
+    display: flex;
+   padding-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 2mm;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 80%;
+  }
+  .image {
+    border: solid 0px #42515f;
+    min-width: 40px;
+  }
+  .emp-text {
+    margin-left: 5%;
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat",sans-serif;
+    letter-spacing: 0px;
+    color: #82a72c;
+    text-transform: capitalize;
+  }
+  .emp-payroll {
+    color: #c4cdd4;
+  }
+  .payroll-main{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    border-radius: 2mm;
+    justify-content: left;
+    padding-left: 20mm;
+    padding-right: 20mm;
+    border-style: groove;
+  }
+  .form-head {
+    color: #42525f;
+    padding-top: 8mm;
+    font-size:x-large;
+    font-weight: bold;
+    
+  }
+  .input{
+    width: 12cm;
+    height: 0.6cm;
+    margin-left: 68px;
+  }
+  .checkbox{
+    margin-left: 25px;
+  }
+  
+  .profile {
+    margin-left: 11px;
+  }
+  
+  .radio-button{
+    margin-left: 57px;
+  }
+  .radio-butt{
+    margin-left: 20px;
+  }
+  .text {
+    margin-left: 0px;
+  }
+   .row-content {
+     padding-left: 0;
+   }
+   .cancleButton{
+    background-color: #e0e0e2;
+    border-radius: 0.9mm;
+    width: 2.5cm;
+    height: 0.8cm;
+   }
+  .submitButton{
+    margin-left: 300px;
+    background-color: #e0e0e2;
+    border-radius: 0.9mm;
+    width: 2.5cm;
+    height: 0.8cm;
+  }
+  .resetButton{
+    margin-left: 10px;
+    background-color: #e0e0e2;
+    border-radius: 0.9mm;
+    width: 2.5cm;
+    height: 0.8cm;
+  }
+  .date{
+    margin-left: 40px;
+  }
+  .format{
+    margin-left: 20px;
+  }
+  
+  .salary{
+    margin-left: 70px; 
+  }
+  
+  .area{
+    margin-left: 70px;
+    height: 80px;
+    width: 12cm;
+  }
+  .label-text{
+    margin-left: 80px;
+    margin-top: 0%;
+  }
+  
