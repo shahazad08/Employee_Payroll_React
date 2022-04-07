@@ -1,65 +1,34 @@
 {
   "employee": [
     {
-      "username": "mohit kumar new",
-      "gender": "male",
-      "departMent": [
+      "username": "mohit KUmar",
+      "department": [
         "HR"
       ],
-      "salary": "30000",
-      "startDate": "1 Jan 2020",
-      "notes": "",
-      "id": 1604589551457,
-      "profileUrl": "../assets/profile-images/Ellipse 1.png"
+      "gender": "male",
+      "salary": "3.0 - 4.0",
+      "day": "18",
+      "month": "1",
+      "year": "2018",
+      "note": "asdas",
+      "profile": "../dashboard/assets/profile-images/Ellipse -2.png",
+      "id": 1604589699566
     },
     {
-      "username": "mohit kumar test",
-      "gender": "male",
-      "departMent": [
+      "username": "test me",
+      "department": [
         "HR"
       ],
-      "salary": "30000",
-      "startDate": "1 Jan 2020",
-      "notes": "",
-      "id": 1604589594363,
-      "profileUrl": "../assets/profile-images/Ellipse 1.png"
-    },
-    {
-      "username": "mohit",
       "gender": "male",
-      "departMent": [
-        "HR"
-      ],
       "salary": "30000",
-      "startDate": "1 Jan 2020",
-      "notes": "",
-      "id": 1604589699566,
-      "profileUrl": "../assets/profile-images/Ellipse -3.png"
+      "day": "18",
+      "month": "1",
+      "year": "2018",
+      "profile": "../dashboard/assets/profile-images/Ellipse -1.png",
+      "id": 1604589731061
     },
     {
-      "name": "test",
-      "gender": "male",
-      "departMent": [
-        "HR"
-      ],
-      "salary": "30000",
-      "startDate": "1 Jan 2020",
-      "notes": "",
-      "id": 1604589731061,
-      "profileUrl": "../assets/profile-images/Ellipse -3.png"
-    },
-    {
-      "username": "Lisa",
-      "salary": "2000",
-      "id": 1604589731062
-    },
-    {
-      "username": "Raheel",
-      "salary": "3000",
-      "id": 1604589731063
-    },
-    {
-      "username": "Shaikk",
+      "username": "Azim Shaikh",
       "department": [
         "HR",
         "Sales"
@@ -71,7 +40,6 @@
       "year": "",
       "note": "asdas",
       "profile": "../dashboard/assets/profile-images/Ellipse -1.png",
-      "empId": null,
       "id": 1604589731064
     },
     {
@@ -88,6 +56,37 @@
       "profile": "../dashboard/assets/profile-images/Ellipse -3.png",
       "empId": null,
       "id": 1604589731065
+    },
+    {
+      "username": "sRumi",
+      "department": [
+        "HR",
+        "Finance"
+      ],
+      "gender": "male",
+      "salary": "3.0 - 4.0",
+      "day": "17",
+      "month": "2",
+      "year": "2018",
+      "note": "asdas",
+      "profile": "../dashboard/assets/profile-images/Ellipse -1.png",
+      "id": 1604589731067
+    },
+    {
+      "username": " Admin Khan",
+      "department": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "gender": "male",
+      "salary": "10 - 15",
+      "day": "4",
+      "month": "2",
+      "year": "2019",
+      "note": "asdasdssssss",
+      "profile": "../dashboard/assets/profile-images/Ellipse -2.png",
+      "id": 1604589731068
     }
   ]
 }
