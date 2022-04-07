@@ -15,19 +15,6 @@
       "id": 1604589699566
     },
     {
-      "username": "test me",
-      "department": [
-        "HR"
-      ],
-      "gender": "male",
-      "salary": "30000",
-      "day": "18",
-      "month": "1",
-      "year": "2018",
-      "profile": "../dashboard/assets/profile-images/Ellipse -1.png",
-      "id": 1604589731061
-    },
-    {
       "username": "Azim Shaikh",
       "department": [
         "HR",
