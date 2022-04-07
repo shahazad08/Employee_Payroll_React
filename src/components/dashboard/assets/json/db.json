@@ -1,7 +1,7 @@
 {
   "employee": [
     {
-      "name": "mohit kumar new",
+      "username": "mohit kumar new",
       "gender": "male",
       "departMent": [
         "HR"
@@ -13,7 +13,7 @@
       "profileUrl": "../assets/profile-images/Ellipse 1.png"
     },
     {
-      "name": "mohit kumar test",
+      "username": "mohit kumar test",
       "gender": "male",
       "departMent": [
         "HR"
@@ -25,7 +25,7 @@
       "profileUrl": "../assets/profile-images/Ellipse 1.png"
     },
     {
-      "name": "mohit",
+      "username": "mohit",
       "gender": "male",
       "departMent": [
         "HR"
@@ -47,6 +47,47 @@
       "notes": "",
       "id": 1604589731061,
       "profileUrl": "../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "username": "Lisa",
+      "salary": "2000",
+      "id": 1604589731062
+    },
+    {
+      "username": "Raheel",
+      "salary": "3000",
+      "id": 1604589731063
+    },
+    {
+      "username": "Shaikk",
+      "department": [
+        "HR",
+        "Sales"
+      ],
+      "gender": "male",
+      "salary": "3.0 - 4.0",
+      "day": "3",
+      "month": "4",
+      "year": "",
+      "note": "asdas",
+      "profile": "../dashboard/assets/profile-images/Ellipse -1.png",
+      "empId": null,
+      "id": 1604589731064
+    },
+    {
+      "username": "Shazzy",
+      "department": [
+        "Engineer"
+      ],
+      "gender": "male",
+      "salary": "3.0 - 4.0",
+      "day": "30",
+      "month": "10",
+      "year": "2016",
+      "note": "",
+      "profile": "../dashboard/assets/profile-images/Ellipse -3.png",
+      "empId": null,
+      "id": 1604589731065
     }
   ]
 }

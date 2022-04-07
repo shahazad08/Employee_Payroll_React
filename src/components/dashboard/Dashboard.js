@@ -16,78 +16,28 @@ class Dashboard extends React.Component{
     constructor(props){
         super(props)
         this.state = {
-            employees:[ {
-                "name": "mohit kumar new",
-                "gender": "male",
-                "departMent": [
-                  "HR"
-                ],
-                "salary": "30000",
-                "startDate": "1 Jan 2020",
-                "notes": "",
-                "id": 1604589551457,
-                "profileUrl": "../assets/profile-images/Ellipse 1.png"
-              },
-              {
-                "name": "mohit kumar test",
-                "gender": "male",
-                "departMent": [
-                  "HR"
-                ],
-                "salary": "30000",
-                "startDate": "1 Jan 2020",
-                "notes": "",
-                "id": 1604589594363,
-                "profileUrl": "../assets/profile-images/Ellipse 1.png"
-              },
-              {
-                "name": "mohit",
-                "gender": "male",
-                "departMent": [
-                  "HR"
-                ],
-                "salary": "30000",
-                "startDate": "1 Jan 2020",
-                "notes": "",
-                "id": 1604589699566,
-                "profileUrl": "../assets/profile-images/Ellipse -3.png"
-              },
-              {
-                "name": "test",
-                "gender": "male",
-                "departMent": [
-                  "HR", "Business"
-                ],
-                "salary": "30000",
-                "startDate": "1 Jan 2020",
-                "notes": "",
-                "id": 1604589731061,
-                "profileUrl": "../assets/profile-images/Ellipse -3.png"
-              }, 
-              {
-                "name": "Shahazad",
-                "gender": "male",
-                "departMent": [
-                  "Engineer"
-                ],
-                "salary": "45000",
-                "startDate": "1 Jan 2020",
-                "notes": "",
-                "id": 1604589731061,
-                "profileUrl": "../assets/profile-images/Ellipse -3.png"
-              }],
+            employees:[],
         }
     }
 
 
     employees = [];
 
+    // For Rest API
+    // componentDidMount=()=>{
+    //     EmployeePayrollService.getAllEmployee().then(response =>{
+    //         const employee = response.data;
+    //         this.setState({employees :employee });
+    //     })
+    // }
+
+    // For JSON Server
     componentDidMount=()=>{
-        EmployeePayrollService.getAllEmployee().then(response =>{
-            const employee = response.data;
-            this.setState({employees :employee });
-        })
-    }
+      EmployeePayrollService.getAllEmployeeFromJsonServer().then(response =>{
+          const employee = response.data;
+          this.setState({employees :employee });
+      })
+  }
 
 
     deleteEmployee=(id)=> {
@@ -149,7 +99,7 @@ class Dashboard extends React.Component{
                                                 : profile4
                                             }alt="profile"/>
                                             </td>
-                                            <td>{employee.name}</td>
+                                            <td>{employee.username}</td>
                                             <td>{employee.gender}</td>
                                             <td><div className="dept-label">{employee.departMent}</div></td>
                                             <td>{employee.salary}LPA</td>

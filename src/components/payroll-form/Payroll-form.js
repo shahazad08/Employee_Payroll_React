@@ -79,9 +79,10 @@ const Payrollform =(props) =>{
             EmployeePayrollService.updateEmployee(value,object);
           } 
         else {
-            EmployeePayrollService.addEmployee(object)
+            // EmployeePayrollService.addEmployee(object)
+            EmployeePayrollService.addEmployeeFromJSON(object)
         }  
-        window.location.assign(`http://localhost:3000/`);
+        window.location.assign(`http://localhost:3001/`);
     }
   
 

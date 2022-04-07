@@ -2,11 +2,17 @@ import axios from "axios";
 
 
 class EmployeePayrollService{
-    baseURL=`http://localhost:8080/employeedetails`;
+    //baseURL=`http://localhost:8080/employeedetails`;
+    baseURL=`http://localhost:3000/employee`;
 
-    addEmployee = (data) => {
+    // addEmployee = (data) => {
+    //     console.log(data)
+    //     return axios.post(this.baseURL + '/create',data);
+    // }
+
+    addEmployeeFromJSON = (data) => {
         console.log(data)
-        return axios.post(this.baseURL + '/create',data);
+        return axios.post(this.baseURL ,data);
     }
 
     delete = (data) => {
@@ -16,6 +22,9 @@ class EmployeePayrollService{
 
     getAllEmployee = () => {
         return axios.get(this.baseURL + "/get/");
+    }
+    getAllEmployeeFromJsonServer = () => {
+        return axios.get(this.baseURL);
     }
     getEmployeeById = (empId) => {
         return axios.get(this.baseURL+`/get/${empId}`)
