@@ -74,6 +74,20 @@
       "note": "asdasdssssss",
       "profile": "../dashboard/assets/profile-images/Ellipse -2.png",
       "id": 1604589731068
+    },
+    {
+      "username": "Mairaj Shaikh",
+      "department": [
+        "Others"
+      ],
+      "gender": "male",
+      "salary": "1.2 - 2.0",
+      "day": "13",
+      "month": "3",
+      "year": "2018",
+      "note": "Hello Admin",
+      "profile": "../dashboard/assets/profile-images/Ellipse -2.png",
+      "id": 1604589731069
     }
   ]
 }
