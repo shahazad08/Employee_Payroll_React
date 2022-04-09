@@ -34,6 +34,7 @@ const Payrollform = (props) => {
 
 
     const handleInput = (e) => {
+        console.log(e.target.name);
         const name = e.target.name;
         const value = e.target.value
         setUserRegistration({ ...userRegistration, [name]: value })
@@ -88,12 +89,13 @@ const Payrollform = (props) => {
 
 
     const onCheckChange = (name) => {
-        let index = userRegistration.department.indexOf(name);
+        console.log(name);
+        //let index = userRegistration.department.indexOf(name);
 
         let checkArray = [...userRegistration.department]
-        if (index > -1)
-            checkArray.splice(index, 1)
-        else
+        // if (index > -1)
+        //     checkArray.splice(index, 1)
+        // else
             checkArray.push(name);
         setUserRegistration({ ...userRegistration, department: checkArray });
     }
@@ -147,7 +149,7 @@ const Payrollform = (props) => {
                         <label className="label-text" htmlFor="gender">Gender</label>
                         <input className="radio-button" type="radio" id="gender" value="male" checked={userRegistration.gender === 'male'} onChange={handleInput} name="gender" />
                         <label className="text" htmlFor="male">Male</label>
-                        <input className="radio-butt" type="radio" id="female" value="female" checked={userRegistration.gender === 'femmale'} onChange={handleInput} name="gender" />
+                        <input className="radio-butt" type="radio" id="female" value="female" checked={userRegistration.gender === 'female'} onChange={handleInput} name="gender" />
                         <label className="text" htmlFor="female" value={userRegistration.gender}>Female</label>
                     </div><br></br>
                     <div className='row-content'>

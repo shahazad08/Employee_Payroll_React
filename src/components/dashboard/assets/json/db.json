@@ -1,20 +1,6 @@
 {
   "employee": [
     {
-      "username": "mohit KUmar",
-      "department": [
-        "HR"
-      ],
-      "gender": "male",
-      "salary": "3.0 - 4.0",
-      "day": "18",
-      "month": "1",
-      "year": "2018",
-      "note": "asdas",
-      "profile": "../dashboard/assets/profile-images/Ellipse -2.png",
-      "id": 1604589699566
-    },
-    {
       "username": "Azim Shaikh",
       "department": [
         "HR",
@@ -26,23 +12,8 @@
       "month": "4",
       "year": "",
       "note": "asdas",
-      "profile": "../dashboard/assets/profile-images/Ellipse -1.png",
-      "id": 1604589731064
-    },
-    {
-      "username": "Shazzy",
-      "department": [
-        "Engineer"
-      ],
-      "gender": "male",
-      "salary": "3.0 - 4.0",
-      "day": "30",
-      "month": "10",
-      "year": "2016",
-      "note": "",
       "profile": "../dashboard/assets/profile-images/Ellipse -3.png",
-      "empId": null,
-      "id": 1604589731065
+      "id": 1604589731064
     },
     {
       "username": "sRumi",
@@ -88,6 +59,52 @@
       "note": "Hello Admin",
       "profile": "../dashboard/assets/profile-images/Ellipse -2.png",
       "id": 1604589731069
+    },
+    {
+      "username": "Aamir",
+      "department": [
+        "HR",
+        "Finance",
+        "Finance",
+        "Sales"
+      ],
+      "gender": "male",
+      "salary": "",
+      "day": "2",
+      "month": "5",
+      "year": "2021",
+      "note": "asdasd",
+      "profile": "../dashboard/assets/profile-images/Ellipse -2.png",
+      "id": 1604589731070
+    },
+    {
+      "username": "asdsa",
+      "department": [
+        "Others"
+      ],
+      "gender": "male",
+      "salary": "",
+      "day": "",
+      "month": "",
+      "year": "",
+      "note": "",
+      "profile": "../dashboard/assets/profile-images/Ellipse -1.png",
+      "id": 1604589731071
+    },
+    {
+      "username": "wewq",
+      "department": [
+        "HR",
+        "Sales"
+      ],
+      "gender": "",
+      "salary": "",
+      "day": "",
+      "month": "",
+      "year": "",
+      "note": "",
+      "profile": "../dashboard/assets/profile-images/Ellipse -4.png",
+      "id": 1604589731072
     }
   ]
 }
