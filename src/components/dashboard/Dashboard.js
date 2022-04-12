@@ -26,8 +26,9 @@ class Dashboard extends React.Component {
 
   // For JSON Server
   componentDidMount = () => {
-    EmployeePayrollService.getAllEmployeeFromJsonServer().then(response => {
-      const employee = response.data;
+    EmployeePayrollService.getAllEmployee().then(response => {
+      console.log(response.data.data);
+      const employee = response.data.data;
       this.setState({ employees: employee });
     })
   }
@@ -85,7 +86,7 @@ class Dashboard extends React.Component {
                 {
                   this.state.employees.map(
                     employee =>
-                      <tr key={employee.id}>
+                      <tr key={employee._id}>
                         <td><img className="profile" src={
                           employee.profile === "../dashboard/assets/profile-images/Ellipse -1.png" ? profile1
                             : employee.profile === "../dashboard/assets/profile-images/Ellipse -2.png" ? profile2
@@ -100,8 +101,8 @@ class Dashboard extends React.Component {
                         <td>{employee.day}/{employee.month}/{employee.year}</td>
                         <td>
 
-                          <img name={employee.emp_id} src={delete1} alt="delete" onClick={() => this.deleteEmployeeFromJsonServer(employee.id)} />
-                          <img name={employee.emp_id} src={edit} alt="edit" onClick={() => this.updateEmployeeFromJSONServer(employee.id)} />
+                          <img name={employee.emp_id} src={delete1} alt="delete" onClick={() => this.deleteEmployeeFromJsonServer(employee._id)} />
+                          <img name={employee.emp_id} src={edit} alt="edit" onClick={() => this.updateEmployeeFromJSONServer(employee._id)} />
                         </td>
                       </tr>
 

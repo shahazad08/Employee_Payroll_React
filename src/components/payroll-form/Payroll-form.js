@@ -57,7 +57,7 @@ const Payrollform = (props) => {
             .getEmployeeByIdFromJsonServer(id)
             .then((data) => {
                 console.log("Dattt", data);
-                setUserRegistration({ ...userRegistration, ...data, username: data.data.username, profile: data.data.profile, gender: data.data.gender, department: data.data.department, salary: data.data.salary, day: data.data.day, month: data.data.month, year: data.data.year, note: data.data.note, isUpdate: true })
+                setUserRegistration({ ...userRegistration, ...data, username: data.data.name, profile: data.data.profile, gender: data.data.gender, department: data.data.department, salary: data.data.salary, day: data.data.day, month: data.data.month, year: data.data.year, note: data.data.note, isUpdate: true })
             })
 
     }
@@ -82,7 +82,7 @@ const Payrollform = (props) => {
             EmployeePayrollService.updateEmployeeFromJSONServer(value, object)
         }
         else {
-            EmployeePayrollService.addEmployeeFromJSON(object)
+            EmployeePayrollService.addEmployee(object)
         }
         window.location.assign(`http://localhost:3001/`);
     }
